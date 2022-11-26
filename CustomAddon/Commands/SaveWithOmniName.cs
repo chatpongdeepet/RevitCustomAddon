@@ -23,7 +23,7 @@ namespace CustomAddon
             //Get Document
             Document doc = uidoc.Document;
 
-            try
+            try 
             {
                 //Retrived File path and Document title
                 string path = doc.PathName;
