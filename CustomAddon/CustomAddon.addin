@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Name>CustomAddon</Name>
+		<Assembly>CustomAddon.dll</Assembly>
+		<AddInId>F7F322A2-1F9E-436F-B4D7-6E3B1628136D</AddInId>
+		<FullClassName>CustomAddon.GetElementId</FullClassName>
+		<Text>GetElementId</Text>
+		<Description>Get the Id from an element</Description>
+		<VendorId>Chatpong</VendorId>
+		<VendorDescription>@LearnCSharp</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>SaveWithOmniName</Name>
+		<Assembly>CustomAddon.dll</Assembly>
+		<AddInId>C1F0E982-8C34-46DB-8105-7B54E7440ECF</AddInId>
+		<FullClassName>CustomAddon.SaveWithOmniName</FullClassName>
+		<Text>SaveWithOmniName</Text>
+		<Description>Save file to origin file path with omniclass prefix name</Description>
+		<VendorId>Chatpong</VendorId>
+		<VendorDescription>@LearnCSharp</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>SaveAsWidthOmniName</Name>
+		<Assembly>CustomAddon.dll</Assembly>
+		<AddInId>4CE1B005-0226-45CC-8681-CA64C212D92B</AddInId>
+		<FullClassName>CustomAddon.SaveAsWidthOmniName</FullClassName>
+		<Text>SaveAsWidthOmniName</Text>
+		<Description>Save as file to select folder with omniclass prefix name</Description>
+		<VendorId>Chatpong</VendorId>
+		<VendorDescription>@BIM Object Th</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Application">
+		<Name>ApplicationPlugin</Name>
+		<Assembly>CustomAddon.dll</Assembly>
+		<AddInId>043AA50B-BF42-4ECE-9F36-B9201BA8DADD</AddInId>
+		<FullClassName>CustomAddon.ExternalApplication</FullClassName>
+		<VendorId>Chatpong Deepet</VendorId>
+		<VendorDescription>cpac_bim01@scg.com, BIM modeler</VendorDescription>
+	</AddIn>
+	
+</RevitAddIns>
